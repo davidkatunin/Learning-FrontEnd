@@ -223,7 +223,6 @@ FEATURES
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     padding: 96px 0px;
@@ -251,14 +250,118 @@ FEATURES
 .services {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .service {
     display: flex;
     width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem 0.5rem;
 }
 
 .service-description {
     display: flex;
     flex-direction: column;
+    margin: 8px 0px 0px 16px;
+}
+
+.service-img {
+    border: 0 solid #e5e7ec;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 9999px;
+    padding: 1.25rem;
+    flex-shrink: 0;
+
+}
+
+.service-title{
+    margin-top: 1rem;
+    font-size: 24px;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.service-para {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(124,139,161);
+    line-height: 2;
+    margin: 16px 0px 0px;
+}
+
+.service-img--img .service-img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* 
+
+QUALITY WORK
+
+*/
+
+.quality-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin: 0px 25.5px;
+    padding: 96px 0px;
+}
+
+.quality-info--row {
+    width: 50%;
+    padding: 32px 0px;
+}
+
+.quality-img-row {
+    width: 50%;
+    border: 1px solid #e5e7eb;
+}
+
+.quality-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.quality-h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.quality-para {
+    margin-top: 16px;
+    text-align: left;
+    font-size: 18px;
+    color: rgba(124,139,161);
+    line-height: 1.625;
+    font-weight: 500;
+}
+
+.quality-button {
+    background-color: #6415ff;
+    color: white;
+    font-size: 14px;
+    border-radius: 9999px;
+    font-weight: 700;
+    padding: 12px 32px;
+}
+
+.quality-button-div {
+    margin: 32px 0px 0px;
 }
