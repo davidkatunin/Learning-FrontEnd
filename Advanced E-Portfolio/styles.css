@@ -11,8 +11,7 @@ html {
 }
 
 li {
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
 
 section {
@@ -44,7 +43,7 @@ input:hover, textarea:hover {
 }
 
 input:focus, textarea:focus {
-    border-color: blue;
+    border-color: purple;
 }
 
 label {
@@ -60,7 +59,7 @@ label {
 }
 
 .title--secondary, .blue{
-    color: blue  !important;
+    color: purple  !important;
 }
 
 p {
@@ -206,7 +205,7 @@ nav, .scroll, header {
 }
 
 .social__link {
-    background-color: blue;
+    background-color: purple;
     color: white;
     padding: 6px;
     width: 32px;
@@ -420,8 +419,8 @@ nav {
 }
 
 .form__submit {
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: purple;
+    border: 2px solid purple;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -438,8 +437,8 @@ nav {
 }
 
 .form__submit:active {
-    border-color: blue;
-    color: blue;
+    border-color: purple;
+    color: purple;
 }
 
 .modal__overlay {

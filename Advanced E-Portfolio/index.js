@@ -1,7 +1,7 @@
 // template_9m8b3b2
 // 9g6ZJfQqCtA74wxMi
 // service_u2ww5kf
-let isModalOpen = false;
+let isModalOpen = true;
 let contrastToggle = false;
 const scaleFactor = 1 / 20
 
