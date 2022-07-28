@@ -14,6 +14,7 @@ if (!books) {
   booksWrapper.classList.remove('books__loading')
 
   if (filter === 'LOW_TO_HIGH'){
+    console.log(books)
     books.sort((a, b) => (a.salePrice || a.originalPrice) - (b.salePrice || b.originalPrice))
   }
   else if (filter === 'HIGH_TO_LOW') {
